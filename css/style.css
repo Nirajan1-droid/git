@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+* font body */
+
+@font-face{
+	font-family: Poppins-Thin;
+	src:url(fonts/Poppins-Thin.ttf);
+	}
+/* universal font for our website is this !and when we don't select the font for anything it will automatically sekect this font as a default */
+p{
+	font-family: 'poopins',sans-serif;
+}
+
+.logo{
+	width:20%;
+	display:flex;
+	justify-content:center;
+	/* allign with the same axis */
+	padding: 30px;
+}
+.logo img{
+	
+	border: 3px;
+	
+/* border-radius: 0px; */
+}
+.navbar{
+	display:flex;
+}
+.nav-list{
+	width:50%;
+	/* background-color: black; */
+	display: flex;
+	
+
+}
+.rightNav{
+	/* background-color:red; */
+	width:50%;
+	text-align: right;
+	/* text-allign allignes the section to the corner of the 
+	direction */
+}
+.nav-list li{
+	list-style-type: none;
+	padding: 10mm;
+
+}
+.nav-list li a{
+	text-decoration: none;
+	color: aliceblue;
+	/* removes text-underline; */
+
+}
+.nav-list li a:hover{
+	text-decoration: none;
+	color:aqua;
+	/* removes text-underline; */
+
+}
+.background{
+	background:rgba(0, 0, 0, 0.56) url('../img/backgroundfull.png');
+	background-size:cover;
+	background-blend-mode:normal;
+}
+#search{
+	padding:8px;
+	font-size:27px;
+	border:2px solid rgb(39, 36, 38);
+	border-radius: 9px;
+}
+.box-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+
+}
